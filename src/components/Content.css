@@ -1,0 +1,83 @@
+/* Page container */
+.item-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Heading */
+.item-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Grid layout */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+  
+
+}
+
+/* Common card class */
+.item-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-4px);
+}
+
+.item-card img {
+  width: 100%;
+ 
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.item-card h3 {
+  font-size: 16px;
+  margin: 8px 0 4px;
+  color: #222;
+}
+
+.item-card .expiry {
+  font-size: 12px;
+  color: #777;
+  align-self: end;
+  margin-bottom: 10px;
+}
+
+/* Unique category styling */
+.groceries-item {
+  border-left: 4px solid #28a745;
+}
+
+.electronics-item {
+  border-left: 4px solid #007bff;
+}
+
+.gadgets-item {
+  border-left: 4px solid #ffc107;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .item-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
