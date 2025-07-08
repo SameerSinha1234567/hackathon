@@ -5,7 +5,7 @@ function NavBar() {
 
   return (
     <nav className="wmt-nav">
-      {/* Dropdown Links */}
+     
       <div className="wmt-nav-item wmt-nav-dropdowns">
         <div className="wmt-dropdown">
           <a href="/departments">
@@ -19,12 +19,12 @@ function NavBar() {
         </div>
       </div>
 
-      {/* Mobile Menu Toggle */}
+      
       <div className="wmt-nav-item wmt-nav-toggle" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
         ☰
       </div>
 
-      {/* Navigation Links */}
+    
       <ul className={`wmt-nav-item wmt-nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
         <li><a href="/deals">Deals</a></li>
         <li><a href="/categories">Categories</a></li>
@@ -32,7 +32,6 @@ function NavBar() {
         <li><a href="/storefinder">Find a Store</a></li>
       </ul>
 
-      {/* Actions */}
       <div className="wmt-nav-item wmt-nav-actions">
         <button className="wmt-btn wmt-signin-btn">Sign In</button>
         <button className="wmt-btn wmt-cart-btn">Cart (0)</button>

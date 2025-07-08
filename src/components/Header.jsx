@@ -3,7 +3,7 @@ import './Header.css'
 function Header() {
   return (
     <header className="wmt-header">
-      {/* Left: Logo */}
+      
       <div className="wmt-header-left">
         <a href="/" className="wmt-logo-link">
           <img
@@ -22,13 +22,13 @@ function Header() {
         </div>
       </div>
 
-      {/* Center: Search */}
+   
       <div className="wmt-search">
         <input type="text" placeholder="Search everything at Walmart online and in store" />
         <button className="wmt-search-button">🔍</button>
       </div>
 
-      {/* Right: Account and Cart */}
+      
       <div className="wmt-header-right">
         <div className="wmt-account">
           <span>👤</span>

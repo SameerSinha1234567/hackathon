@@ -93,9 +93,7 @@
   padding: 2px 5px;
 }
 
-/* ---------------------- */
-/* Responsive breakpoints */
-/* ---------------------- */
+
 
 @media screen and (min-width: 768px) {
   .wmt-header {

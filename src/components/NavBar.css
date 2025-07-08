@@ -9,12 +9,12 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Common class for all elements */
+
 .wmt-nav-item {
   color: black;
 }
 
-/* Dropdown links (Departments & Services) */
+
 .wmt-nav-dropdowns {
   display: flex;
   gap: 20px;
@@ -34,7 +34,6 @@
   font-size: 10px;
 }
 
-/* Navigation Links */
 .wmt-nav-links {
   list-style: none;
   display: flex;
@@ -54,7 +53,7 @@
   text-decoration: underline;
 }
 
-/* Actions */
+
 .wmt-nav-actions {
   display: flex;
   gap: 10px;
@@ -90,7 +89,7 @@
   color: #333;
 }
 
-/* Mobile toggle */
+
 .wmt-nav-toggle {
   display: none;
   font-size: 24px;
@@ -98,7 +97,7 @@
   color: black;
 }
 
-/* Responsive */
+
 @media screen and (max-width: 768px) {
   .wmt-nav {
     flex-direction: column;
