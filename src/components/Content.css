@@ -95,3 +95,38 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+.add-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-item-form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.add-item-form input {
+    color: black ;
+  background-color: white ;
+
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.btn {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;  
+  border: none;
+  border-radius: 4px;
+}
+.delete-btn{
+color: #222;
+}
